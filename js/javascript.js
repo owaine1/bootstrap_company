@@ -9,4 +9,12 @@ function initMap() {
           position: uluru,
           map: map
         });
+      }$(document).ready(setup);
+
+      function setup(){
+        console.log('Inside setup');
+        $('#send').click(sendData);
+      }
+      function sendData(){
+        console.log('Inside sendData');
       }
