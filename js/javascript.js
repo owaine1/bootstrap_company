@@ -32,7 +32,7 @@ var contact = {
   comments: comments
 };
 console.log(contact);
-$.get('results.php', contact).done(success).fail(oops);
+$.post('results.php', contact).done(success).fail(oops);
 }
 
 function success(data){
