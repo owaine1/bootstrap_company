@@ -17,4 +17,8 @@ function initMap() {
       }
       function sendData(){
         console.log('Inside sendData');
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var comments = $('#comments').val();
+console.log('data:' + name + ', '+ email + ', ' + comments);
       }
