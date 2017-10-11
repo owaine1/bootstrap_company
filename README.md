@@ -1,2 +1,1 @@
-bs_resume site
-Generic basic site
+new site for bs_company

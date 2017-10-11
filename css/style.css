@@ -1,3 +1,11 @@
+body {
+  font: 1.2em "Montserrat", sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7; }
+
+p {
+  font-size: 1em; }
+
 .bg-1 {
   background-color: #1abc9c;
   /* Green */
@@ -12,6 +20,10 @@
   background-color: #ffffff;
   /* White */
   color: #555555; }
+
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff; }
 
 .container-fluid {
   padding-top: 70px;
@@ -31,5 +43,8 @@
 
 .navbar-nav li a:hover {
   color: #1abc9c !important; }
+
+.ode-margin {
+  margin-bottom: 45px; }
 
 /*# sourceMappingURL=style.css.map */
