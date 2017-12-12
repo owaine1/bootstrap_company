@@ -7,7 +7,7 @@ Uses:
 * jQuery
 ## Start using php server:
 ```
-php -S localhost: *your_port_number e.g. 3500*
+php -S localhost: _your_port_number e.g. 3500_
 ```
 
 
